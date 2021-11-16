@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #343549;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    position: absolute;
+    width: 300px;
+    height: 440px;
+    background-color: #343549;
+    border-radius: 15px;
+    box-shadow: 0 0 85px #343549bf;
+    text-align: center;
+}
+
+.box-avata {
+    margin-top: 10%;
+}
+
+.box-avata img {
+    height: 105px;
+    width: 105px;
+    border-radius: 55px;
+    border: 5px solid #c4c6f0;
+}
+
+.box-content {
+    margin-top: 5%;
+    line-height: 1.6rem;
+}
+
+.box-content--name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.box-content--age {
+    font-weight: 400;
+    color: #adaeb0!important;
+}
+
+.box-content--social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.box-content--social .item a img {
+    height: 25px;
+    width: 25px;
+}
+
+.box-content--social .item a img:hover {
+    transform: scale(1.4, 1.4);
+    transition: all ease .4s;
+}
+
+.box-content--social .item {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.box-content--desc {
+    color: #c4c6f0;
+}
+
+.box-content--location {
+    color: #adaeb0;
+}
+
+.btn-more {
+    border: 2px solid red;
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    color: red;
+}
+
+.btn-more:hover {
+    background-color: red;
+    color: #00ffff;
+    transition: all ease-in-out .3s;
+}
+
+.box-status {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00ffff;
+    width: 100%;
+    bottom: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.box-status--item {
+    padding: 5px 10px 5px 10px;
+    line-height: .05rem;
+    flex: 1;
+}
